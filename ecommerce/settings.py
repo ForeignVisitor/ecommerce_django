@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get(
 # DEBUG = os.environ.get('debug', True)
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','https://electrostore-es.herokuapp.com/']
+ALLOWED_HOSTS = [".herokuapp.com",'electrostore-es.herokuapp.com']
 
 # Application definition
 
