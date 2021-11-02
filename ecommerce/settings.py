@@ -25,9 +25,7 @@ SECRET_KEY = os.environ.get(
     'secret_key', '_=4dm6vs^&ho6p29lhhkc3vh=(zl5-one3==g70o=z9b%&ddrt')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = os.environ.get('debug', True)
-DEBUG = False
-
+DEBUG = os.environ.get('debug', True)
 ALLOWED_HOSTS = [".herokuapp.com",'electrostore-es.herokuapp.com']
 
 # Application definition
