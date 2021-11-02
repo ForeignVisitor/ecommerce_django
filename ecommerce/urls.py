@@ -26,7 +26,7 @@ urlpatterns = [
     path('', include('landingPage.urls', namespace='landingPage')),
     path('store/', include('store.urls', namespace='store')),
     path('cart/', include('cart.urls', namespace='cart')),
-    path('orders/', include('orders.urls', namespace='orders'))
+    path('orders/', include('orders.urls', namespace='orders')),
     url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ]
