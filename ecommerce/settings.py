@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get(
 # DEBUG = os.environ.get('debug', True)
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','electrostore-es.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','https://electrostore-es.herokuapp.com/']
 
 # Application definition
 
@@ -124,7 +124,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'UTC+1'
 
 USE_I18N = True
 
