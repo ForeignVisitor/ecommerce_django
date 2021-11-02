@@ -28,6 +28,7 @@ kombu==5.1.0
 lazy-object-proxy==1.4.3
 Pillow==8.4.0
 prompt-toolkit==3.0.21
+psycopg2
 pycodestyle==2.8.0
 python-gettext==4.0
 pytz==2019.3
